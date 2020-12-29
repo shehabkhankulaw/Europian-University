@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header section starrt*/
+
+.header-section {
+    width: 100%;
+    background: url('..//img/banner.png') center top no-repeat;
+    background-size: cover;
+}
+
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+
+.header-section .navbar-nav.ml-auto {
+    margin-right: 60px;
+}
+
+.header-section .navbar-light .navbar-nav .active > .nav-link {
+    color: #ffc178;
+    text-decoration: underline;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #5a6e79;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffc178;
+    text-decoration: underline;
+}
+
+.header-section .apply-btn .btn-info {
+    background: #fff;
+    color: #ffc178;
+    border: none;
+    padding: 10px 19px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 90px;
+    margin-left: -34px;
+}
+
+.header-section .apply-btn .btn-info:hover,
+.header-section .apply-btn .btn-info:focus {
+    background: #ffc178;
+    color: #fff;
+}
+
+.header-section .inner-banner {
+    width: 100%;
+    padding: 140px 0px 350px;
+}
+
+.header-section .inner-banner h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #ffc178;
+}
+
+.header-section .inner-banner p {
+    color: #5a6e79;
+}
+
+.header-section .inner-banner .btn-info {
+    background: #ffc178;
+    color: #fff;
+    border: none;
+    padding: 10px 19px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.header-section .inner-banner .btn-info:hover,
+.header-section .inner-banner .btn-info:focus {
+    color: #ffc178;
+    background: #fff;
+}
+
+/*header section end*/
+
+
+/*university section start*/
+.university-section {
+    width: 100%;
+    padding-bottom: 170px;
+    background: url('..//img/universitybg.png') left bottom no-repeat;
+    background-size: auto;
+    background-size: auto;
+    background-size: 38% 66%;
+}
+
+.university-section .title-uni {
+    text-align: center;
+}
+
+.university-section .title-uni h2 {
+    font-family: 'Work Sans', sans-serif !important;
+    font-size: 34px;
+    font-weight: 591;
+}
+
+.university-section .title-uni p {
+    color: #5a6e79;
+    font-size: 14px;
+}
+
+.university-section .inner-box {
+    width: 100%;
+    text-align: center;
+    background: #f9703a;
+    padding: 50px 0px 120px;
+}
+
+.university-section .inner-box img {}
+
+.university-section .inner-box h2 {
+    font-size: 24px;
+    position: absolute;
+    left: 50px;
+    top: 294px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.university-section .bara {
+    padding: 54px 100px 54px;
+}
+
+.university-section .box-2 {
+    background: #80be41;
+}
+
+.university-section .box-3 {
+    background: #ffb157;
+}
+
+.university-section .left-img img {
+    width: 90%;
+    margin-top: 30px;
+}
+
+.university-section .right-title {}
+
+.university-section .right-title h2 {
+    font-size: 34px;
+    font-weight: 602;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.university-section .right-title .title-content {
+    color: #5a6e79;
+    font-size: 14px;
+}
+
+.university-section .right-title .student {
+    float: left;
+    margin-right: 50px;
+    line-height: 18px;
+}
+
+.university-section .right-title .student .numb {
+    font-size: 29px;
+    font-weight: 700;
+    color: #ffba00;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.university-section .right-title .student .stud {
+    color: #ffba00;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.university-section .right-title .student1 {
+    float: left;
+    margin-right: 50px;
+    line-height: 18px;
+}
+
+.university-section .right-title .student1 .courses {
+    font-size: 29px;
+    font-weight: 700;
+    color: #ff5f72;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.university-section .right-title .student1 .courses1 {
+    color: #ff5f72;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.university-section .right-title .student2 {
+    float: left;
+    margin-right: 50px;
+    line-height: 18px;
+}
+
+.university-section .right-title .student2 .vidnum {
+    font-size: 29px;
+    font-weight: 700;
+    color: #43cb83;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.university-section .right-title .student2 .videos {
+    color: #43cb83;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*university section end*/
+
+/* around the university section start*/
+
+.atu-section {
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: -140px;
+    background: url('..//img/atubg.png') right top no-repeat;
+    background-size: auto;
+    background-size: 30% 125%;
+}
+
+.atu-section .title {
+    text-align: center;
+}
+
+.atu-section .title h2 {
+    font-size: 34px;
+    font-weight: 602;
+    padding: 50px 0px;
+}
+
+.atu-section .whole-atu-img {}
+
+.atu-section .atu-img-box {
+    background: #fff;
+    box-shadow: 1px 1px 23px 8px #eee;
+    padding: 1px 0px 7px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.atu-section .atu-img-box img {}
+
+.atu-section .atu-img-box h6 {
+    margin-left: 14px;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.atu-section .atu-img-box .content1 {
+    margin-left: 14px;
+    font-size: 11px;
+    margin-top: -2px;
+    font-weight: 400;
+    color: #878686;
+}
+
+.atu-section .atu-img-box .content2 {
+    margin-left: 14px;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #878686;
+    font-weight: 500;
+}
+
+.atu-section .atu-img-box:hover h6 {
+    color: #ffba00;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.atu-section .atu-img-box:hover .content2 {
+    color: #000;
+    cursor: pointer;
+}
+
+.atu-section .extra-margin {
+    margin-top: 25px;
+}
+
+
+/* around the university section end*/
+
+/*footer section start*/
+
+.footer-section {
+    width: 100%;
+    padding: 50px 0px;
+    background: #252c3a;
+}
+
+.footer-section .flogo {}
+
+.footer-section .flogo img {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.footer-section .flogo p {
+    color: #939393;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.footer-section .flogo .footer-icon {
+    border-top: 1px solid #494848;
+    padding: 20px 0px;
+    width: 89%;
+}
+
+.footer-section .flogo .footer-icon ul {
+    display: block;
+}
+
+.footer-section .flogo .footer-icon ul li {
+    display: inline-block;
+    padding: 0px 6px;
+}
+
+.footer-section .flogo .footer-icon ul li a {
+    color: #4a4a4a;
+}
+
+.footer-section .flogo .footer-icon ul li a:hover {
+    color: #0089fd;
+}
+
+.footer-section .flogo .footer-icon ul li a i {}
+
+.footer-section .footer-title {
+    padding: 10px 0px;
+}
+
+.footer-section .footer-title h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.footer-section .footer-title p {
+    font-family: 'Roboto', sans-serif;
+    color: #939393;
+    font-size: 10px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.footer-section .footer-title p span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    color: #6f6f6f;
+}
+
+.footer-section .kol-mds-3 {
+    width: 18%;
+}
+
+.footer-section .footer-title .alada-content {
+    line-height: 20px;
+}
+
+.footer-section .input-field {
+    position: relative;
+}
+
+.footer-section .input-field input {
+    padding: 9px 15px;
+    font-size: 10px;
+}
+
+.footer-section .input-field .btn-info {
+    padding: 9px 8px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 0px;
+    background: #ffc178;
+    border: none;
+    position: absolute;
+    top: 1px;
+    right: 6px;
+}
+.footer-section .input-field .btn-success{
+    display: none;
+}
+
+.footer-section .input-field .btn-info:hover {
+    background-color: #fff;
+    color: #ffc178;
+}
+
+.footer-menu {
+    width: 100%;
+    background: #1d232e;
+    padding: 15px 0px 0px;
+}
+
+.footer-menu .copyright p {
+    color: #6b6b6b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.footer-menu .f-menu p {
+      color: #6b6b6b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.footer-menu .f-menu p :hover{
+    text-decoration: underline;
+    color: #0089fd;
+    cursor: pointer;
+}
+.footer-menu .f-menu{
+    text-align: center;
+}
+.footer-menu .f-menu p span {
+    margin-right: 20px;
+}
+
+/*footer section end*/
