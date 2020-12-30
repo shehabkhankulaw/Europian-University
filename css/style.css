@@ -401,14 +401,14 @@ h6 {
 
 .footer-section .input-field .btn-info {
     padding: 11px 8px;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 500;
     border-radius: 0px;
     background: #ffc178;
     border: none;
     position: absolute;
     top: 0px;
-    right: 6px;
+    right: 1px;
 }
 .footer-section .input-field .btn-success{
     display: none;
